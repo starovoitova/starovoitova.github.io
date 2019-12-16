@@ -1,0 +1,293 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Marcellus+SC&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Yellow background for page */
+.body_container {
+    background-color: #ffd51f;
+}
+
+.intro_text {
+    color: #de0035;
+    margin-bottom: 20px;
+    margin-top: 30PX;
+    font-size: 25px;
+    font-family: 'Marcellus SC';
+    font-weight: bold;
+}
+
+.products_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(400px, auto);
+    grid-gap: 1em;
+    justify-items: center;
+    align-items: center;
+}
+
+.products {
+    width: 800px;
+}
+
+.about_us1 {
+    font-size: 23px;
+    font-family:inherit;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+
+.intro_2text {
+    color: #de0035;
+    font-size: 25px;
+    font-family: 'Marcellus SC';
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.inf {
+    max-width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+
+
+}
+
+.intro_container {
+    text-align: center;
+    margin: 35px 0 35px 0;
+}
+
+.intro2_container {
+    line-height: 70px;
+}
+
+.logo_container {
+    width: 200px;
+    margin: 0 auto;
+    height: 86px;
+}
+
+.logo_image {
+    width: 200px;
+}
+
+.nav_container {
+    background-color: #ffffff;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.list_element {
+    padding: 0 10px 0 10px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Marcellus SC';
+    font-weight: bold;
+}
+
+.nav_link {
+    color: #de0035;
+    text-decoration: none;
+    font-size: 19px;
+    text-shadow: 0 0 2px #de0035;
+    font-family: 'Marcellus SC';
+    font-weight: bold;
+}
+
+.nav_link2 {
+    color: #de0035;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Marcellus SC';
+    font-weight: bold;
+}
+
+.main_container {
+    width: 100%;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.content_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.promo_container {
+    margin-top: 50px;
+    font-family: 'Marcellus SC';
+    font-weight: bold;
+
+}
+
+.h2_heading {
+    color: #de0035;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: 'Marcellus SC';
+    font-weight: bold;
+
+}
+
+.promo_text {
+    color: #ffffff;
+    font-size: 19px;
+    font-family: 'Marcellus SC';
+    font-weight: bold;
+}
+
+.promo_valid {
+    font-size: 13px;
+    color: #de0035;
+    margin-bottom: 50px;
+    font-family: 'Marcellus SC';
+}
+
+.faq_text {
+    padding-top: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 19px;
+    color: #de0035;
+    text-shadow: 0 0 2px #de0035;
+    font-family: 'Marcellus SC';
+    font-weight: bold;
+}
+
+.contact_container {
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 300px;
+    padding-top: 30px;
+}
+
+.contactus_container {
+    width: 320px;
+    font-size: 16px;
+    font-family: 'Marcellus SC';
+    color: #de0035;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    text-shadow: 0 0 2px #de0035;
+    font-weight: bold;
+}
+
+.contactus_text {
+    color: #de0035;
+    font-family: 'Marcellus SC';
+    font-weight: bold;
+}
+
+.some_container {
+    width: 175px;
+    font-size: 16px;
+    color: #de0035;
+    text-shadow: 0 0 2px #de0035;
+    font-family: 'Marcellus SC';
+    padding-left: 50px;
+    font-weight: bold;
+
+}
+
+.some_container2 {
+    width: 175px;
+    font-size: 18px;
+    color: #de0035;
+    font-weight: bold;
+    font-family: 'Marcellus SC';
+}
+
+.some_list {
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+.some_icon {
+    color: #de0035;
+}
+
+.somelist_element {
+    margin: 0 0 10px 0;
+}
+
+.link2 {
+    font-size: 15px;
+    text-decoration: underline;
+    color: #de0035;
+    font-family: 'Marcellus SC';
+    font-weight: bold;
+
+}
+
+.some_container {
+    font-size: 16px;
+    color: #de0035;
+    font-family: 'Marcellus SC';
+    width: 175px;
+    font-weight: bold;
+
+}
+
+/* When the screen gets larger that 630px then ... */
+@media only screen and (min-width: 400px) {
+    .products {
+        width: 200px;
+    }
+}
+
+
+/* When the screen gets larger that 630px then ... */
+
+@media only screen and (min-width: 630px) {
+    .contact_container {
+        height: 200px;
+    }
+
+    .nav_list {
+        justify-content: space-around;
+    }
+
+    .list_element {
+        width: 130px;
+        padding: 0;
+    }
+
+}
+
+/* When the screen gets larger that 1024px then ... */
+
+@media only screen and (min-width: 1024px) {
+    .main_container {
+        margin: 0 auto;
+        width: 1024px;
+    }
+}
